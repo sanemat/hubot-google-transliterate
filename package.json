@@ -16,7 +16,8 @@
     "url": "https://github.com/hubot-scripts/hubot-hubot-google-transliterate/issues"
   },
   "dependencies": {
-    "coffee-script": "^1.7.1"
+    "coffee-script": "^1.7.1",
+    "google-transliterate": "^0.1.0"
   },
   "devDependencies": {
     "chai": "*",
