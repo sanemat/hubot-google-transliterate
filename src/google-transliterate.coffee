@@ -18,4 +18,5 @@ googleTransliterate = require 'google-transliterate'
 
 module.exports = (robot) ->
   robot.respond /google\s*(?:transliterate|input)\s*(.*)/, (msg) ->
-    msg.reply msg.match[1]
+    googleTransliterate.transliterateFirst msg.match[1], 'ja-Hira', 'ja', (err, transliteration) ->
+      msg.reply transliteration.result.join('')
