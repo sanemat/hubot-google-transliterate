@@ -1,6 +1,6 @@
 # hubot-google-transliterate
 
-A hubot script that does the things
+Transliterate from ひらがな to 日本語
 
 See [`src/google-transliterate.coffee`](src/google-transliterate.coffee) for full documentation.
 
@@ -19,6 +19,6 @@ Then add **hubot-google-transliterate** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot google transliterate かんだ
+hubot>> @user1 神田
 ```
