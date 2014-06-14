@@ -17,5 +17,5 @@
 googleTransliterate = require 'google-transliterate'
 
 module.exports = (robot) ->
-  robot.respond /google\s*(?:transliterate|input)/, (msg) ->
-    msg.reply 'gooooooogle'
+  robot.respond /google\s*(?:transliterate|input)\s*(.*)/, (msg) ->
+    msg.reply msg.match[1]
