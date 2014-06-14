@@ -1,7 +1,7 @@
 {
   "name": "hubot-google-transliterate",
   "description": "Transliterate from ひらがな to 日本語",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "sanemat <o.gata.ken@gmail.com>",
   "license": "MIT",
   "keywords": [
