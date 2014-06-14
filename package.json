@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-google-transliterate.git"
+    "url": "git://github.com/sanemat/hubot-google-transliterate.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-google-transliterate/issues"
+    "url": "https://github.com/sanemat/hubot-google-transliterate/issues"
   },
   "dependencies": {
     "coffee-script": "^1.7.1",
