@@ -14,9 +14,8 @@
 # Author:
 #   sanemat[@<org>]
 
-module.exports = (robot) ->
-  robot.respond /hello/, (msg) ->
-    msg.reply "hello!"
+googleTransliterate = require 'google-transliterate'
 
-  robot.hear /orly/, ->
-    msg.send "yarly"
+module.exports = (robot) ->
+  robot.respond /google\s*(?:transliterate|input)/, (msg) ->
+    msg.reply 'gooooooogle'

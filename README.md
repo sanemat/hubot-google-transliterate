@@ -1,8 +1,8 @@
-# hubot-hubot-google-transliterate
+# hubot-google-transliterate
 
 A hubot script that does the things
 
-See [`src/hubot-google-transliterate.coffee`](src/hubot-google-transliterate.coffee) for full documentation.
+See [`src/google-transliterate.coffee`](src/google-transliterate.coffee) for full documentation.
 
 ## Installation
 
@@ -10,10 +10,10 @@ In hubot project repo, run:
 
 `npm install hubot-hubot-google-transliterate --save`
 
-Then add **hubot-hubot-google-transliterate** to your `external-scripts.json`:
+Then add **hubot-google-transliterate** to your `external-scripts.json`:
 
 ```json
-["hubot-hubot-google-transliterate"]
+["hubot-google-transliterate"]
 ```
 
 ## Sample Interaction

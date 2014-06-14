@@ -1,5 +1,5 @@
 {
-  "name": "hubot-hubot-google-transliterate",
+  "name": "hubot-google-transliterate",
   "description": "A hubot script that does the things",
   "version": "0.0.0",
   "author": "sanemat <o.gata.ken@gmail.com>",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-hubot-google-transliterate.git"
+    "url": "git://github.com/hubot-scripts/hubot-google-transliterate.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-hubot-google-transliterate/issues"
+    "url": "https://github.com/hubot-scripts/hubot-google-transliterate/issues"
   },
   "dependencies": {
     "coffee-script": "^1.7.1",
